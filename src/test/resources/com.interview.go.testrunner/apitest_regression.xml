@@ -13,7 +13,7 @@
 	<test name="Go Rest API Test">
 		<!--<parameter name="baseUri" value="https://gorest.co.in" />-->
 		<classes>
-			<class name="com.interview.go.test.GoRestUserTest" />
+			<class name="com.interview.go.test.UserTest" />
 		</classes>
 	</test>
 
