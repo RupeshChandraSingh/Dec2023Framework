@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="API Regression Suite" thread-count="1"
+	parallel="tests" verbose="4">
+
+
+	<listeners>
+		<listener
+			class-name="com.interview.go.listner.ExtentReportListener" />
+	</listeners>
+
+	<test name="Go Rest API Test">
+		<!--<parameter name="baseUri" value="https://gorest.co.in" />-->
+		<classes>
+			<class name="com.interview.go.test.GoRestUserTest" />
+		</classes>
+	</test>
+
+</suite>
